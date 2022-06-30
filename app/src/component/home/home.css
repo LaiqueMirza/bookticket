@@ -1,0 +1,19 @@
+
+.homeDiv{
+    padding-top: 20px;
+    padding-bottom: 250px;
+}
+.infoHomeDiv{
+    color: grey;
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.cardhomeDiv button{
+margin-top: 5px;
+background-color: rgb(75, 1, 1);
+color: white;
+}
+.cardhomeDiv {
+    height: 170px;
+}

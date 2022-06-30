@@ -1,0 +1,120 @@
+.outsideDiv{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+
+}
+.loginFormDiv{
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	align-items: center;
+	width: 500px;
+flex-direction: column;
+	margin: 50px auto;	
+	border-radius: 20px;
+	border: 0.1px solid black;
+}
+.headlineLoginForm{
+	text-align: center;
+}
+.loginFormInnerDiv{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: left;
+	width: 440px;
+}
+.loginFormInnerDiv label{
+	font-size: 14px;
+	margin-left: 45px;
+}
+.loginFormInnerDiv b{
+	color: indianred;
+}
+.userIcon-LoginForm{
+	font-size: 50px;
+	margin: 0 auto;
+}
+
+.inputLogInForm{
+	padding: 6px;
+	font-size: 14px;
+	border-radius: 5px;
+	width: 80%;
+	margin-left: 50%;
+	transform: translate(-50%, 0);
+}
+
+.buttonLoginForm{
+	padding:6px;
+	border-radius: 2px;
+	margin-bottom: 20px;
+	width: 80%;
+	font-size: 14px;
+	font-weight: 700;
+	outline: none;
+	letter-spacing: 1.5px;
+	margin-left: 50%;
+	transform: translate(-50%, 0);
+    cursor: pointer;
+}
+
+.eyeIconLogIn{
+	position: relative;
+	top: -32px;
+	left: 365px;
+	cursor: pointer;
+}
+.eyeIconLogIn:hover{
+	color: indianred;
+}
+
+
+@media only screen and (max-width: 500px) {
+	.loginFormDiv{
+		width: 300px;
+	margin: 20px auto;	
+
+	}
+.loginFormInnerDiv{
+	width: 280px;
+}
+.loginFormInnerDiv label{
+	font-size: 12px;
+	margin-left: 0;
+}
+
+.userIcon-LoginForm{
+	font-size: 30px;
+}
+.inputLogInForm{
+	padding: 7px;
+	width: 100%;
+	/* width: 95%; */
+	font-size: 12px;
+	border-radius: 2.5px;
+}
+
+.buttonLoginForm{
+	padding:7px;
+	border-radius: 2px;
+	margin-bottom: 10px;
+	width: 100%;
+	font-size: 12px;
+	font-weight: 700;
+	outline: none;
+    cursor: pointer;
+	letter-spacing: 1px;
+}
+.eyeIconLogIn{
+	top: -28px;
+	left: 250px;
+}
+.createAccountbuttonLoginForm{
+	font-size: 12px;
+    cursor: pointer;
+	margin-bottom: 20px;
+	margin-left: 0;
+}
+}
